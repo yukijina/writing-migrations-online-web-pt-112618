@@ -7,6 +7,8 @@ class CreateStudents < ActiveRecord::Migration[5.1]
   end 
   
   def changed
-    create_table :name
+    create_table :students do |student|
+      student.
+    end 
   end
 end
