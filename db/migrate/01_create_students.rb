@@ -7,7 +7,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
   end 
   
   def changed
-    b
+    binding.pry
     create_table :students do |student|
       inding.pry
       student.string :name
