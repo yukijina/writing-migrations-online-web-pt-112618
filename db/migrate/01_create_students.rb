@@ -8,9 +8,9 @@ class CreateStudents < ActiveRecord::Migration[5.1]
   
   def change
     
-    create_table :students do |student|
+    create_table :students do |row|
       binding.pry
-      student.string :name
+      row.string :name
     end 
   end
 end
